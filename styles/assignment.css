@@ -71,3 +71,34 @@ nav{
     border-radius: 5px;
 
 }
+
+/* mid section */
+.focus{
+    margin-top: 117px;
+    display: flex;
+    gap: 220px ;
+   justify-content: center;
+}
+
+.heading{
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+}
+#para{
+    font-size: 24;
+    font-weight: 400;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    color: white; 
+    padding: 12px 36px; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+.picture{
+    border-radius: 48px
+}

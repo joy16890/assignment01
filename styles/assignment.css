@@ -274,13 +274,43 @@ nav {
     font-size: 16px;
     color: white;
     padding: 12px 36px;
-    cursor: pointer;
+    curioor: pointer;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 .btr img{
 
     border-radius: 48px;
+    width: auto;
+
 }
 
+/* Designing Footer Section */
+.fot{
+    text-align: center;
+}
+.end .inter-common1 {
+ font-size: 100px;
+ font-weight: bold;
+ color: #4E47FF;
+}
+.end p{
+    font-size: 16px;
+    font: weight 400px; ;
+    color: #8987A1;
+}
+.last ul{
+    text-decoration: none;
+    text-align: center;
+}
+.last{
+    
+    display: flex;
+   justify-content: center;
+    list-style: none;
+    color: #8987A1;
+    gap: 48px;
+    flex-wrap: wrap; 
+
+}
 

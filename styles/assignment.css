@@ -64,6 +64,11 @@ nav {
     border-radius: 5px;
 }
 
+.btn:hover {
+    background-color: #3a38cc;
+    transform: translateY(-2px);
+}
+
 .some-container {
     text-align: center;
 }
@@ -79,8 +84,10 @@ nav {
     border-radius: 5px;
 
 }
-
-/* mid section */
+.link:hover {
+            background-color: #3a38cc; 
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+}
 .focus {
     margin-top: 117px;
     display: flex;
@@ -108,6 +115,11 @@ nav {
     padding: 12px 36px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #3a38cc;
+    transform: scale(1.05);
 }
 
 .picture {
@@ -162,12 +174,13 @@ nav {
 }
 
 /* Review Section */
-.part4{
+.part4 {
     /* Fixing the margin in both right and left */
     margin-left: 150px;
-    margin-right:150px ;
+    margin-right: 150px;
 }
-#top{
+
+#top {
     /* fixing the heading */
     margin-top: 147px;
     text-align: center;
@@ -186,9 +199,10 @@ nav {
     flex-direction: column;
     align-items: flex-start;
 }
+
 .rev1 {
     /* fixing the star icon */
-    margin-top:14px;
+    margin-top: 14px;
     display: flex;
     align-items: center;
     margin-bottom: 14px;
@@ -208,43 +222,48 @@ nav {
     gap: 20px;
 }
 
-.review h3{
+.review h3 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 8px;
 
 }
-.review p{
+
+.review p {
     font-size: 16px;
     font-weight: 400;
     margin-top: 8px;
 }
-.reviewer-info p{
+
+.reviewer-info p {
     font-size: 16px;
     font-weight: 600;
     color: #757575;
     margin-bottom: 2px;
 
 }
-#id2{
-     font-size: 16px;
-     font-weight: 600;
-     color: #B3B3B3;
-     margin-top: 2px;
+
+#id2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #B3B3B3;
+    margin-top: 2px;
 }
+
 .reviewer-img {
     display: flex;
-    gap:12px ;
+    gap: 12px;
 }
-.reviewer-img img { 
-    width: 60px; 
-    height: 60px; 
+
+.reviewer-img img {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 /* Better Section */
-.btr{
+.btr {
     text-align: center;
     width: auto;
     margin-bottom: 10px;
@@ -255,62 +274,142 @@ nav {
     margin-left: 141px;
     margin-right: 141px;
 }
-.better h1{
+
+.better h1 {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.better p{
+
+.better p {
     margin-top: 20px;
     font-size: 16px;
     font-weight: 400;
-    color: rgba(0,0,0,0.5);
+    color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
-.better button{
-  background-color: #4E47FF;
+
+.better button {
+    background-color: #4E47FF;
     font-weight: bold;
     border: none;
     font-size: 16px;
     color: white;
     padding: 12px 36px;
-    curioor: pointer;
+    cursor: pointer;
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.btr img{
 
+.btr img {
     border-radius: 48px;
     width: auto;
 
 }
 
+b button:hover {
+    background-color: #3a38cc;
+    box-shadow: 0 8px 20px rgba(78, 71, 255, 0.4);
+}
+
+
 /* Designing Footer Section */
-.fot{
+.fot {
     text-align: center;
 }
+
 .end .inter-common1 {
- font-size: 100px;
- font-weight: bold;
- color: #4E47FF;
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
 }
-.end p{
+
+.end p {
     font-size: 16px;
-    font: weight 400px; ;
+    font: weight 400px;
+    ;
     color: #8987A1;
 }
-.last ul{
+
+.last ul {
     text-decoration: none;
     text-align: center;
 }
-.last{
-    
+
+.last {
+
     display: flex;
-   justify-content: center;
+    justify-content: center;
     list-style: none;
     color: #8987A1;
     gap: 48px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+
+/* form */
+.frm h1 {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.form-container h1 {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.frm {
+
+    margin-left: 150px;
+    margin-right: 150px;
 
 }
 
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    display: flex;
+    padding: 100px 60px;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #495057;
+    box-sizing: border-box;
+}
+
+.sub {
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}

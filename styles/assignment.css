@@ -1,66 +1,74 @@
 /* Font er */
 
 .inter-common1 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .raleway-common2 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* Hero Section */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 50px;
-    
+
 }
-.banner{
+
+.banner {
     text-align: center;
 }
-.btn{
+
+.btn {
     text-align: center;
 }
-.bg-img{
+
+.bg-img {
     background-image: url(../Assets/Hero-bg.png);
     background-size: auto;
     display: inline-block;
     width: 100%;
     height: 698px;
 }
-.banner{
-    
+
+.banner {
+
     font-size: 65px;
     font-weight: bold;
-     text-align: center ;
+    text-align: center;
     /* margin-left: 267px;
     margin-right: 267px; */
     color: #252432;
 }
-.inter{
+
+.inter {
     color: #4E47FF;
     font-size: 34px;
     font-weight: 900;
 }
-.btn{
+
+.btn {
     background-color: #4E47FF;
     font-weight: bold;
     border: none;
     font-size: 16px;
-    color: white; 
-    padding: 12px 36px; 
-    cursor: pointer; 
+    color: white;
+    padding: 12px 36px;
+    cursor: pointer;
     border-radius: 5px;
 }
-.some-container{
-      text-align: center;
+
+.some-container {
+    text-align: center;
 }
-.link{
+
+.link {
     background-color: #4E47FF;
     font-weight: bold;
     font-size: 16px;
@@ -73,73 +81,164 @@ nav{
 }
 
 /* mid section */
-.focus{
+.focus {
     margin-top: 117px;
     display: flex;
-    gap: 220px ;
-   justify-content: center;
+    gap: 220px;
+    justify-content: center;
 }
 
-.heading{
+.heading {
     color: #252432;
     font-size: 42px;
     font-weight: bold;
 }
-#para{
+
+#para {
     font-size: 24;
     font-weight: 400;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #4E47FF;
     font-weight: bold;
     border: none;
     font-size: 16px;
-    color: white; 
-    padding: 12px 36px; 
-    cursor: pointer; 
+    color: white;
+    padding: 12px 36px;
+    cursor: pointer;
     border-radius: 5px;
 }
-.picture{
+
+.picture {
     border-radius: 48px
 }
+
 /* user Section */
-.users-stats{
+.users-stats {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.card-heading{
+
+.card-heading {
     text-align: center;
 }
-.card-container{
+
+.card-container {
 
     font-size: 20px;
     width: auto;
     font-weight: 600;
     margin-bottom: 0px;
     margin-top: 50px;
-   padding:50px 142px;
-   background-color: rgba(78, 71, 255,0.1);
-   border-radius: 24px;
-   margin-left: 141px;
-   margin-right: 141px;
- }
- .card-heading{
+    padding: 50px 142px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin-left: 141px;
+    margin-right: 141px;
+}
+
+.card-heading {
     margin-top: 40px;
-     font-size: 38px;
-     font-weight: bold;
-     color:#252432 ;
-     margin-bottom: 40px;
- }
- .item-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 40px;
+}
+
+.item-title {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
     margin-bottom: 5px;
- }
- .item-description{
-    margin-top:5px;
+}
+
+.item-description {
+    margin-top: 5px;
     font-size: 20px;
     font-weight: 400px;
-    color: rgba(0, 0, 0,0.5);
- }
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Review Section */
+.part4{
+    /* Fixing the margin in both right and left */
+    margin-left: 150px;
+    margin-right:150px ;
+}
+#top{
+    /* fixing the heading */
+    margin-top: 147px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+.review {
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0 10px 15px -3px rgba(12, 4, 4, 0.3);
+    padding: 50px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rev1 {
+    /* fixing the star icon */
+    margin-top:14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+
+.rev1 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    border-radius: 9999;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+.review p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.reviewer-info p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 2px;
+
+}
+#id2{
+     font-size: 16px;
+     font-weight: 600;
+     color: #B3B3B3;
+     margin-top: 2px;
+}
+.reviewer-img {
+    display: flex;
+    gap:12px ;
+}
+.reviewer-img img { 
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}

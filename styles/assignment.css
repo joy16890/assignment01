@@ -242,3 +242,45 @@ nav {
     border-radius: 50%;
     object-fit: cover; 
 }
+
+/* Better Section */
+.btr{
+    text-align: center;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding: 50px 142px;
+    background-color: #F5F8FF;
+    border-radius: 24px;
+    margin-left: 141px;
+    margin-right: 141px;
+}
+.better h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.better p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+.better button{
+  background-color: #4E47FF;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.btr img{
+
+    border-radius: 48px;
+}
+
+
